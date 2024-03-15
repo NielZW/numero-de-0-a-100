@@ -16,13 +16,13 @@ Inicio
    leia (numero)
 
    fat := 1
-   escreva (numero, ":=" )
+   escreval (numero, ":=" )
    para i de numero ate 1 passo -1 faca
-         escreva (i, "x")
+         escreva (i, " x ")
          fat := fat*i
          
    fimpara
    
-   escreva ("O fatorial de ",numero, "=",fat)
+   escreva ("O fatorial de ",numero, " =",fat)
 
 Fimalgoritmo
