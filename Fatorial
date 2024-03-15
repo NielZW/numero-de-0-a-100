@@ -16,9 +16,11 @@ Inicio
    leia (numero)
 
    fat := 1
-   
+   escreva (numero, ":=" )
    para i de numero ate 1 passo -1 faca
+         escreva (i, "x")
          fat := fat*i
+         
    fimpara
    
    escreva ("O fatorial de ",numero, "=",fat)
