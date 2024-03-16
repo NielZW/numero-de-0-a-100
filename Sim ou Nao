@@ -1,0 +1,24 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 15/03/2024
+Var
+// Seção de Declarações das variáveis
+ resposta : caracter
+ numero : inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval ("Vou repetir esse codigo ate voce mandar parar")
+   escreva ("Deseja comecar a brincadeira Sim ou Nao?")
+   leia (resposta)
+   numero :=0
+   
+   enquanto (resposta="Sim") OU (resposta="sim")OU (resposta= "s") faca
+      numero :=numero+1
+      escreval ("Deseja continuar com a brincadeira Sim ou Nao?")
+      leia (resposta)
+      fimEnquanto
+
+      fimalgoritmo
